@@ -1,0 +1,8 @@
+<!-- <svg width="64" height="64" viewBox="0 0 64 64" fill="pink" xmlns="http://www.w3.org/2000/svg">
+<circle cx="31.0857" cy="31.0857" r="30.5857" stroke="black"/>
+<path d="M40.8857 32L26.0572 42.2933V21.7066L43.8857 32Z" fill="white"/>
+</svg> -->
+<svg width="32" height="32" viewBox="0 0 64 64" fill="#e411af" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="31.0857" cy="31.0857" r="30.5857" stroke="white"/>
+  <path d="M40.8857 32L26.0572 42.2933V21.7066L43.8857 32Z" fill="white"/>
+</svg>

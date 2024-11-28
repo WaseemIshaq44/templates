@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "Roborto";
+  src: url(assists/fonts/Roboto/Roboto-Regular.ttf);
+}
+body{
+  font-family: "Roboto";
+}
+.nbar {
+  width: 90%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.nbar > .mnu {
+  width: 60%;
+  height: 30px;
+  /* position: relative;
+  top: "36px";
+  left: "886px";
+  gap: "40px";
+  opacity: "0px"; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: antiquewhite; */
+}
+.nbar > .mnu > .nvgtn {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+.nbar > .mnu > .sgnn {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+.sgnn > button {
+  color: #F857A6;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #F857A6;
+}
+.sgnn > button:hover{
+  color: black;
+  background-color: #a80956;
+}
+.discription {
+  background-color: #d6e4fe;
+  color: #ffffff;
+  width: 90%;
+  height: 550px;
+  margin: 0px auto;
+  margin-top: 20px;
+  top: 104px;
+  left: 117px;
+  gap: 0px;
+  border-radius: 30px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: url(assists/images/image.png);
+
+}
+.details {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 35px;
+}
+.image {
+  width: 50%;
+  height: 100%;
+}
+
+.fntweight700 {
+  width: 587px;
+  height: 122px;
+  font-family: Roboto;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 60.94px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+}
+.para {
+  width: 526px;
+  height: 60px;
+  top: 423px;
+  left: 181px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+.btn > button {
+  width: 200px;
+  height: 50px;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #F857A6 0%, #FF5858 100%);
+}
+.iphoneimage {
+  background: url(assists/images/bakground.svg);
+  background-size: cover;
+}

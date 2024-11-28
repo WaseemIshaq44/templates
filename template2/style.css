@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "Roborto";
+  src: url(assists/fonts/Roboto/Roboto-Regular.ttf);
+}
+body{
+  font-family: "Roborto";
+}
+.nbar {
+  width: 90%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.nbar > .mnu {
+  width: 60%;
+  height: 30px;
+  /* position: relative;
+  top: "36px";
+  left: "886px";
+  gap: "40px";
+  opacity: "0px"; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: antiquewhite; */
+}
+.nbar > .mnu > .nvgtn {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  /* background-color: #491d8b; */
+}
+.nbar > .mnu > .sgnn {
+  width: 20%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: flex-end;
+}
+.sgnn > button {
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+.discription {
+  background-color: #d6e4fe;
+  width: 90%;
+  height: 650px;
+  margin: 0px auto;
+  margin-top: 20px;
+  /* position: relative; */
+  top: 104px;
+  left: 117px;
+  gap: 0px;
+  border-radius: 30px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+/* .discription>div{
+    width: 90%;
+    display: flex;
+    align-items: space-around;
+    flex-direction: column;
+    justify-content: space-around;
+} */
+.details {
+  width: 50%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 35px;
+}
+.image {
+  width: 50%;
+  height: 100%;
+}
+
+.fntweight700 {
+  width: 587px;
+  height: 122px;
+  top: 237px;
+  left: 181px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 60.94px;
+  text-align: left;
+  /* text-underline-position: from-font; */
+  text-decoration-skip-ink: none;
+  color: #491d8b;
+}
+.para {
+  width: 526px;
+  height: 60px;
+  top: 423px;
+  left: 181px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  /* text-underline-position: from-font; */
+  text-decoration-skip-ink: none;
+  color: #37383c;
+}
+.btn > button {
+  width: 200px;
+  height: 60px;
+  top: 547px;
+  left: 181px;
+  padding: 5px 26px 5px 26px;
+  gap: 10px;
+  border-radius: 50px;
+  opacity: 0px;
+  background-color: #0a84ff;
+}
+.iphoneimage {
+  background: url(assists/images/bakground.svg);
+  background-size: cover;
+}

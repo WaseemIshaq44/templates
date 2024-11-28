@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "Roborto";
+  src: url(assists/fonts/Roboto/Roboto-Regular.ttf);
+}
+body {
+  background: linear-gradient(
+    72.99deg,
+    #262626 0%,
+    rgba(38, 38, 38, 0.6) 99.8%
+  );
+  font-family: "Roboto";
+}
+
+.nbar {
+  width: 90%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.nbar > .mnu {
+  width: 60%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nbar > .mnu > .nvgtn {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+.nbar > .mnu > .sgnn {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+.sgnn > button {
+  color: #ffffff;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+}
+.discription {
+  color: #ffffff;
+  width: 90%;
+  height: 650px;
+  margin: 0px auto;
+  margin-top: 20px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-size: cover;
+}
+.details {
+  width: 40%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.fntweight700 {
+  width: 587px;
+  height: 122px;
+  top: 237px;
+  left: 181px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 60.94px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+}
+.discription > .details > .fntweight700 > span {
+  /* color: rgb(2,0,36); */
+  color: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(215, 28, 214, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.para {
+  width: 526px;
+  height: 60px;
+  top: 423px;
+  left: 181px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+}
+.btn > button {
+  width: 200px;
+  height: 60px;
+  top: 547px;
+  left: 181px;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #ffe259 0%, #ffa751 100%);
+}
+.image {
+  width: 60%;
+  height: 100%;
+  position: relative;
+  left: 75px;
+  display: flex;
+  overflow: hidden;
+}
+.battery1 {
+  width: 30%;
+  height: 100%;
+  background-size: cover;
+}
+.battery2 {
+  width: 70%;
+  height: 85%;
+  background: url(assists/images/battery2.png);
+  background-size: cover;
+  background-position-x: left;
+  background-position-y: top;
+  position: relative;
+  top: 120px;
+}
+.btry1 {
+  width: 350px;
+  height: 400px;
+  background: url(assists/images/battery1.png);
+  background-size: cover;
+  position: absolute;
+  top: 20rem;
+  left: 38.75rem;
+}

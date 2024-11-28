@@ -1,0 +1,206 @@
+@font-face {
+  font-family: "Roborto";
+  src: url(assists/fonts/Roboto/Roboto-Medium.ttf);
+}
+body {
+  background: url(assists/images/backimg.png);
+  background-size: cover;
+  margin: 0px auto;
+  font-family: "Roboto";
+
+}
+.nbar {
+  width: 100%;
+  background-color: rgba(70, 70, 70, 0.377);
+}
+.nbar > div {
+  width: 95%;
+  height: 40px;
+  margin: 0px auto;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+.nbar > div> .lgo{
+  width: 80%;
+}
+.nbar > div> .mnubtnandmnubar{
+  width: 20%;
+}
+
+.mnu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.nbar >div> .mnu > .sgnn {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+.sgnn > button {
+  color: #000000;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+}
+.sgnn > button:hover{
+  color: #ffffff;
+  background-color: #000000;
+  cursor: pointer;
+}
+
+
+
+
+.discription {
+  color: #ffffff;
+  width: 90%;
+  height: 550px;
+  margin: 0px auto;
+  /* margin-top: 30px; */
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-size: cover;
+}
+.space{
+  width: 100%;
+  height: 30px;
+}
+.details{
+  width: 100%;
+  height: 150px;
+  /* background-color: rgba(83, 70, 70, 0.589); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.fntweight700 {
+  width: 100%;
+  height: 90px;
+  top: 237px;
+  left: 181px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 60.94px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  display: flex;
+  justify-content: center;
+}
+.para {
+  width: 100%;
+  height: 50px;
+  top: 423px;
+  left: 181px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  display: flex;
+  justify-content: center;
+ 
+}
+.srch{
+  width: 100%;
+  height: 2.5rem;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.discription>.srch>input{
+  width: 80%;
+  height: 95%;
+  border: none;
+  border-radius: 25px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.discription>.srch>input::selection{
+  border: none;
+}
+
+.discription>.srch>button{
+  width: 15%;
+  height: 90%;
+  border-radius: 25px;
+  border: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #ffffff;
+  background: rgb(11,19,228);
+  background: linear-gradient(90deg, rgba(11,19,228,1) 11%, rgba(9,22,121,1) 47%, rgba(255,0,232,1) 73%);
+}
+.discription>.srch>button:hover{
+  background: rgb(11,19,228);
+  background: linear-gradient(90deg, rgb(11, 228, 40) 0%, rgb(18, 190, 196) 47%, rgb(255, 72, 0) 100%);
+  color: #000000;
+  cursor: pointer;
+}
+.cards{
+  width: 100%;
+  height: 200px;
+  /* background-color: green; */
+  /* margin-top: 10px; */
+  display: flex;
+  justify-content: space-between;
+}
+.crd1, .crd2, .crd3, .crd4{
+  width: 23%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.img1,.img2,.img3,.img4{
+  width: 100%;
+  height: 80%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img1:hover, .img2:hover, .img3:hover, .img4:hover{
+  cursor: pointer;
+}
+.img1{
+  background: url(assists/images/card1.png);
+  background-size: cover;
+}
+.img2{
+  background: url(assists/images/card2.png);
+  background-size: cover;
+}
+.img3{
+  background: url(assists/images/card3.png);
+  background-size: cover;
+}
+.img4{
+  background: url(assists/images/card4.png);
+  background-size: cover;
+}
+.lbl{
+  width: 100%;
+  height: 18%;
+  font-weight: 600;
+}
