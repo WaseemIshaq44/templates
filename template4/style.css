@@ -16,15 +16,9 @@ body{
 .nbar > .mnu {
   width: 60%;
   height: 30px;
-  /* position: relative;
-  top: "36px";
-  left: "886px";
-  gap: "40px";
-  opacity: "0px"; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: antiquewhite; */
 }
 .nbar > .mnu > .nvgtn {
   display: flex;
@@ -46,6 +40,7 @@ body{
 .sgnn > button:hover{
   color: black;
   background-color: #a80956;
+  cursor: pointer;
 }
 .discription {
   background-color: #d6e4fe;
@@ -108,6 +103,13 @@ body{
   border: none;
   border-radius: 5px;
   background: linear-gradient(90deg, #F857A6 0%, #FF5858 100%);
+}
+.btn > button:hover{
+  color: black;
+  background: #a80956;
+  font-size: larger;
+  font-weight: bolder;
+  cursor: pointer;
 }
 .iphoneimage {
   background: url(assists/images/bakground.svg);

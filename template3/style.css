@@ -45,6 +45,11 @@ body {
   border: 1px solid #ffffff;
   background-color: transparent;
 }
+.sgnn > button:hover{
+  background-color: #000000;
+  font-weight: bolder;
+  cursor: pointer;
+}
 .discription {
   color: #ffffff;
   width: 90%;
@@ -109,6 +114,11 @@ body {
   left: 181px;
   border-radius: 5px;
   background: linear-gradient(90deg, #ffe259 0%, #ffa751 100%);
+}
+.btn > button:hover{
+  background: #ffffff;
+  font-weight: bolder;
+  cursor: pointer;
 }
 .image {
   width: 60%;

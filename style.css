@@ -103,6 +103,10 @@ body{
   border: none;
   border-radius: 25px;
 }
+.btn >div> button:hover{
+  background-color: #000000;
+  color: #ffffff;
+}
 .btn >div> img{
   margin-left: 40px;
 }
